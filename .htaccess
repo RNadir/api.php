@@ -2,3 +2,4 @@ RewriteEngine On
 
 RewriteRule ^api/(.*)$ api.php?name=$1 [NC,L]
 RewriteRule ^api$ api.php
+RewriteRule ^index$ index.php
