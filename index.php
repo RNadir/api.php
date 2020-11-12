@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>demo</title>
+  <title>lesGO</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -27,6 +27,11 @@
       include('fetchapi.php');
       ?>
     </h3>
+    <table>
+      <th></th>
+      <th></th>
+      <th></th>
+    </table>
   </div>
 </body>
 

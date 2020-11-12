@@ -3,9 +3,14 @@
 $products = [
 	"product1"=>20,
 	"product2"=>10,
-	"product3"=>5
+	"product3"=>5,
+	"product4"=>51,
+	"product5"=>52,
+	"product6"=>53,
+	"product7"=>54
 ];
 
+// Get price from product name
 function get_price($name)
 {
 	global $products;
@@ -18,6 +23,11 @@ function get_price($name)
 			break;
 		}
 	}
+}
+
+function get_one_product_info(){
+	global $products;
+	
 }
 function get_all(){
 
